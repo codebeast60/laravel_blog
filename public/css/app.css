@@ -1,0 +1,27 @@
+body {
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: rgb(7, 91, 187) !important;
+    padding-bottom: 50px;
+}
+.navbar a {
+    color: white;
+}
+.navbar a:hover {
+    color: rgb(203, 245, 198);
+}
+.hero h3 {
+    margin-top: 285px;
+}
+.image-front {
+    display: flex;
+}
+.text-limit {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
